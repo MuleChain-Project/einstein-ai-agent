@@ -23,7 +23,7 @@ async function sendMessage() {
   document.getElementById('user-input').value = ''; // Clear the input field
 
   try {
-    const response = await fetch('https://autonomous-agents-einsteinai-trustlayer-qq54l5.5sc6y6-4.usa-e2.cloudhub.io/tools', {
+    const response = await fetch('https://einstein-ai-trust-layer-i3evmd.5sc6y6-4.usa-e2.cloudhub.io/tools', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
