@@ -82,7 +82,7 @@ function formatReply(reply) {
 function addIntroMessage() {
   const introMessage = `
     Hi, I'm Einstein, an AI Agent built with MuleChain on the MuleSoft Anypoint Platform. 
-    Every interaction with me is <b>secured</b> through the <b>Salesforce Trust Layer</b>! 
+    Every interaction with me is <b>secured</b> through the <b>Einstein Trust Layer</b>! 
     Here are my key skills:
     - Check <b>SAP ECC</b> inventory
     - Retrieve <b>SAP S4H</b> order details
