@@ -54,7 +54,7 @@ function updateIndicators(categories) {
     if (indicator) {
       indicator.textContent = `${category.categoryName}: ${category.score.toString()}`; // Set the text content of the indicator to the category name and score
       if (category.score === 0) {
-        indicator.classList.add('green' );
+        indicator.classList.add('green');
         indicator.classList.remove('orange');
       } else {
         indicator.classList.add('orange');
